@@ -28,6 +28,8 @@ X Butterfly
 
 10^0:
 - Small Child
+- Cat
+- Dog
 
 10^1:
 X Human
@@ -36,12 +38,12 @@ X Human
 - Dinosaurs
 - Oak Trees
 - Saguaro Cactus
-- Average House
+X Average House
 - Whale
 
 10^2:
 - Titanic
-- Redwood Tree
+X Redwood Tree
 - Football Field
 - Airplane
 - Statue of Liberty
@@ -49,7 +51,7 @@ X Human
 
 10^3:
 X Eiffel Tower
-- Burh Khalifa
+- Burj Khalifa
 - Boeing Everett Factory
 - Hoover Dam
 
