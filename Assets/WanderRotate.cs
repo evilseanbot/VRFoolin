@@ -17,8 +17,10 @@ public class WanderRotate : MonoBehaviour {
 		float randomY = Random.Range (0f, 1f) - 0.5f;
 		float randomZ = Random.Range (0f, 1f) - 0.5f;
 
-		targetTrans.Rotate (new Vector3 (randomX, randomY, randomZ));
-		Quaternion MoveTrans = Quaternion.Lerp (transform.rotation, targetTrans.rotation, 0.10f);
-		transform.Rotate(MoveTrans.eulerAngles);
+
+		transform.Rotate(new Vector3(randomX, randomY, randomZ));
+		//targetTrans.Rotate (new Vector3 (randomX, randomY, randomZ));
+		//Quaternion MoveTrans = Quaternion.Lerp (transform.rotation, targetTrans.rotation, 0.10f);
+		//transform.Rotate(MoveTrans.eulerAngles);
 	}
 }
