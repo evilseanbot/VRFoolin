@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 89a4c00011fbced4faad7b6346d7ce7e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature_Diplodocus
+    100002: Body1
+    100004: Body2
+    100006: //RootNode
+    100008: Diplodocus_low_004
+    100010: Foreleg1_l
+    100012: Foreleg1_r
+    100014: Foreleg2_l
+    100016: Foreleg2_r
+    100018: Foreleg3_l
+    100020: Foreleg3_r
+    100022: Ground
+    100024: Hindleg1_l
+    100026: Hindleg1_r
+    100028: Hindleg2_l
+    100030: Hindleg2_r
+    100032: Hindleg3_l
+    100034: Hindleg3_r
+    100036: Mouth1
+    100038: Mouth2
+    100040: Neck1
+    100042: Neck2
+    100044: Neck3
+    100046: Neck4
+    100048: Neck5
+    100050: Neck6
+    100052: Neck7
+    100054: Root
+    100056: Tail1
+    100058: Tail10
+    100060: Tail11
+    100062: Tail2
+    100064: Tail3
+    100066: Tail4
+    100068: Tail5
+    100070: Tail6
+    100072: Tail7
+    100074: Tail8
+    100076: Tail9
+    400000: Armature_Diplodocus
+    400002: Body1
+    400004: Body2
+    400006: //RootNode
+    400008: Diplodocus_low_004
+    400010: Foreleg1_l
+    400012: Foreleg1_r
+    400014: Foreleg2_l
+    400016: Foreleg2_r
+    400018: Foreleg3_l
+    400020: Foreleg3_r
+    400022: Ground
+    400024: Hindleg1_l
+    400026: Hindleg1_r
+    400028: Hindleg2_l
+    400030: Hindleg2_r
+    400032: Hindleg3_l
+    400034: Hindleg3_r
+    400036: Mouth1
+    400038: Mouth2
+    400040: Neck1
+    400042: Neck2
+    400044: Neck3
+    400046: Neck4
+    400048: Neck5
+    400050: Neck6
+    400052: Neck7
+    400054: Root
+    400056: Tail1
+    400058: Tail10
+    400060: Tail11
+    400062: Tail2
+    400064: Tail3
+    400066: Tail4
+    400068: Tail5
+    400070: Tail6
+    400072: Tail7
+    400074: Tail8
+    400076: Tail9
+    2300000: Ground
+    3300000: Ground
+    4300000: Diplodocus_low_004
+    4300002: Ground
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: Diplodocus_low_004
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
