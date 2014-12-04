@@ -1,42 +1,58 @@
 STUFF TO ADD:
+10^-9 (Organic Chemistry)
+10^-8 (Living things)
+
+10^-9
+- DNA
+
+10^-7
+- Largest Virus (Megavirus)
+- Bacteriaphage
+
+10^-6
+- Red Blood cell
+- x Chromosone
+- Cell Nucleus
+
 10^-5
-- Red Blood Cell
 - White Blood Cell
 - Mitochondria
-- X Chromosone
+X Skin Cell
 
 10^-4
-- Human Hair
+X Human Hair
 - Human Egg
-- Skin Cell
+- Dust Mite
+X Grain of salt
+- LCD Pixel
+X Amoeba
+- Tick
 
 10^-3:
-- Dust Mite
-- LCD Pixel
-- Amoeba
-- Graint of salt
-
-10^-2:
 X Ant
 
-10^-1:
-- Humming Bird
-- Small Animals
+10^-2:
 - Eggs
 X Bee
 X Butterfly
 
-10^0:
+10^-1:
+- Humming Bird
+- Small Animals
+
+10^-1:
 - Small Child
 - Cat
 X Dog
 X Bluebird
 
-10^1:
+10^0:
 X Human
 - Giraffe
 - Elephant
 X Rhino
+
+10^1
 - Dinosaurs
 - Oak Trees
 - Saguaro Cactus
@@ -51,14 +67,54 @@ X Redwood Tree
 - Airplane
 - Statue of Liberty
 - Rockets
-
-10^3:
 X Eiffel Tower
 X Burj Khalifa
-- Boeing Everett Factory
 - Hoover Dam
 
-10^4
+10^3:
+- Boeing Everett Factory
 - Mount Everest
-- Halley's Comet
 - Large Hadron Collider
+
+10^4
+- Halley's Comet
+
+10^5
+- Grand Canyon
+
+10^6
+X The Moon
+- California
+- Great Wall of China
+
+10^7
+X Earth
+
+-------------------
+
+Scale goes:
+10^-35 (Plank) - 10^27 (Theoretical Universe) (62 Magnitudes)
+Empty:
+10^-34 - 10^-25
+
+Physics Particles:
+10^-25 - 10^-9
+Chemistry:
+10^-11 - 10^-8
+Organic Chemistry:
+10^-9 - 10^-8
+Living things:
+10^-8 - 10^2
+Man-made objects:
+10^-9(Carbon nanotube) - 10^6 (Great wall of China)
+Astronomy:
+10^3 - 10^25
+
+What is visible?
+Roughly, something 1/1000 of your size.
+Moon -> Mount Everest -> Person -> Ant -> White Blood Cell -> DNA
+
+How many square planks could you fit in the universe?
+Somewhere around 10^(62^3)
+
+Unity seems to handle by default: (4 magnitudes)

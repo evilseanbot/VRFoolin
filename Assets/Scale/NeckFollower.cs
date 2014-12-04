@@ -53,8 +53,6 @@ public class NeckFollower : MonoBehaviour {
 		// Pythagorean theorem.
 
 		float opposite = Mathf.Sqrt ((hypo * hypo) - (adjacent * adjacent));
-		Debug.Log ("Opposite");
-		Debug.Log (opposite);
 
 		// The opposite will become nan if the hyptoneuse is shorter than the adjacent.
 
