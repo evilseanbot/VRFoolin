@@ -17,6 +17,7 @@ public class Shrinker : MonoBehaviour {
 		//double scaleChange = scaleDim * 0.01;
 		//float scaleChange
 
+		// Shrink world to proper size.
 		if (scaleDim < 0.001 && world.localScale.x == 100) {
 			world.localScale = new Vector3(100000, 100000, 100000);
 		}
@@ -26,7 +27,11 @@ public class Shrinker : MonoBehaviour {
 		if (scaleDim < 1000 && world.localScale.x == 0.0001f) {
 			world.localScale = new Vector3(0.1f, 0.1f, 0.1f);
 		}
+		if (scaleDim < 1000000 && world.localScale.x == 0.0000001f) {
+			world.localScale = new Vector3(0.0001f, 0.0001f, 0.0001f);
+		}
 
+		// Grow world to proper size.
 		if (scaleDim > 0.001 && world.localScale.x == 100000) {
 			world.localScale = new Vector3(100, 100, 100);
 		}
