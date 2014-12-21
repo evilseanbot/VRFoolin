@@ -30,6 +30,9 @@ public class Shrinker : MonoBehaviour {
 		if (scaleDim < 1000000 && world.localScale.x == 0.0000001f) {
 			world.localScale = new Vector3(0.0001f, 0.0001f, 0.0001f);
 		}
+		if (scaleDim < 1000000000 && world.localScale.x == 0.0000000001f) {
+			world.localScale = new Vector3(0.0000001f, 0.0000001f, 0.0000001f);
+		}
 
 		// Grow world to proper size.
 		if (scaleDim > 0.001 && world.localScale.x == 100000) {
@@ -43,6 +46,9 @@ public class Shrinker : MonoBehaviour {
 		}
 		if (scaleDim > 1000000 && world.localScale.x == 0.0001f) {
 			world.localScale = new Vector3(0.0000001f, 0.0000001f, 0.0000001f);
+		}
+		if (scaleDim > 1000000000 && world.localScale.x == 0.0000001f) {
+			world.localScale = new Vector3(0.0000000001f, 0.0000000001f, 0.0000000001f);
 		}
 
 		if (Input.GetKey("down")) {
