@@ -1,0 +1,5 @@
+PLANETARY DISTANCES:
+
+The distances of the planets in this model are:
+
+Sqrt(Actual distances between cores in kilometers) + (Diameter of non-earth planet/2)
