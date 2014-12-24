@@ -60,6 +60,10 @@ public class Shrinker : MonoBehaviour {
 			world.localScale = new Vector3(0.0000001f, 0.0000001f, 0.0000001f);
 			scaleChanged = true;
 		}
+		if (playerScale < 1000000000000 && world.localScale.x == 0.0000000000001f) {
+			world.localScale = new Vector3(0.0000000001f, 0.0000000001f, 0.0000000001f);
+			scaleChanged = true;
+		}
 		
 		// Grow world to proper size.
 		if (playerScale > 0.001 && world.localScale.x == 100000) {
@@ -80,6 +84,10 @@ public class Shrinker : MonoBehaviour {
 		}
 		if (playerScale > 1000000000 && world.localScale.x == 0.0000001f) {
 			world.localScale = new Vector3(0.0000000001f, 0.0000000001f, 0.0000000001f);
+			scaleChanged = true;
+		}
+		if (playerScale > 1000000000000 && world.localScale.x == 0.0000000001f) {
+			world.localScale = new Vector3(0.0000000000001f, 0.0000000000001f, 0.0000000000001f);
 			scaleChanged = true;
 		}
 
