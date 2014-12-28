@@ -12,7 +12,7 @@ STUFF TO ADD:
 10^-6
 - Red Blood cell
 - x Chromosone
-- Cell Nucleus
+X Cell Nucleus
 
 10^-5
 - White Blood Cell
@@ -84,11 +84,64 @@ X Burj Khalifa
 
 10^6
 X The Moon
-- California
+X California
 - Great Wall of China
+X Mars
+X Venus
 
 10^7
 X Earth
+X Jupiter
+
+10^8
+
+10^9
+X Sun
+
+10^10
+X Polaris
+
+10^11
+- Earth-sun Distance
+
+10^12
+X Betelgeuse
+
+10^13
+
+10^14
+X Stingray Nebula
+
+10^15
+
+10^16
+
+10^17
+X Orion Nebula
+
+10^18
+- Tarantula Nebula
+
+10^21
+X Milky Way galaxy
+
+10^22
+- IC 1101
+
+10^23
+- Local group
+
+10^24
+- Virgo super cluster
+
+10^25
+- Pisces-Cetus super cluster
+
+10^26
+- Observable universe
+
+10^27
+- Minimum size of the universe
 
 -------------------
 

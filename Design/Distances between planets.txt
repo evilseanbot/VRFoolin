@@ -2,4 +2,8 @@ PLANETARY DISTANCES:
 
 The distances of the planets in this model are:
 
-Sqrt(Actual distances between cores in kilometers) + (Diameter of non-earth planet/2)
+(Actual distances between cores in kilometers)^(2/3) for stars and smaller. (Within 1000 light years)
+
+(Actual distance between cores in kilometers)^(3/4) for nebulas.
+
+Add half of the diameter of planet if necessary.
