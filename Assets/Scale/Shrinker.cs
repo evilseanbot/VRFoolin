@@ -41,7 +41,7 @@ public class Shrinker : MonoBehaviour {
 		float newScale;
 
 		// Shrink world to proper size.
-		for (int i = -1; i < 8; i++) {
+		for (int i = -1; i < 10; i++) {
 			if (playerScale < Mathf.Pow (10, i*3) && world.localScale.x == (float)(Mathf.Pow (10, -(i+1)*3) * 100f)) {
 				newScale = Mathf.Pow (10, -((i)*3)) * 100f;
 				world.localScale = new Vector3(newScale, newScale, newScale);
@@ -55,65 +55,6 @@ public class Shrinker : MonoBehaviour {
 				scaleChanged = true;
 			}
 		}
-		/*if (playerScale < 0.001 && world.localScale.x == 100) {
-			world.localScale = new Vector3(100000, 100000, 100000);
-			scaleChanged = true;
-		}
-		if (playerScale < 1 && world.localScale.x == 0.1f) {
-			world.localScale = new Vector3(100, 100, 100);
-			scaleChanged = true;
-		}
-		if (playerScale < 1000 && world.localScale.x == 0.0001f) {
-			world.localScale = new Vector3(0.1f, 0.1f, 0.1f);
-			scaleChanged = true;
-		}
-		if (playerScale < 1000000 && world.localScale.x == 0.0000001f) {
-			world.localScale = new Vector3(0.0001f, 0.0001f, 0.0001f);
-			scaleChanged = true;
-		}
-		if (playerScale < 1000000000 && world.localScale.x == 0.0000000001f) {
-			world.localScale = new Vector3(0.0000001f, 0.0000001f, 0.0000001f);
-			scaleChanged = true;
-		}
-		if (playerScale < 1000000000000 && world.localScale.x == 0.0000000000001f) {
-			world.localScale = new Vector3(0.0000000001f, 0.0000000001f, 0.0000000001f);
-			scaleChanged = true;
-		}
-		if (playerScale < 1000000000000000 && world.localScale.x == 0.0000000000000001f) {
-			world.localScale = new Vector3(0.0000000000001f, 0.0000000000001f, 0.0000000000001f);
-			scaleChanged = true;
-		}
-		
-		// Grow world to proper size.
-		if (playerScale > 0.001 && world.localScale.x == 100000) {
-			world.localScale = new Vector3(100, 100, 100);
-			scaleChanged = true;
-		}
-		if (playerScale > 1 && world.localScale.x == 100) {
-			world.localScale = new Vector3(0.1f, 0.1f, 0.1f);
-			scaleChanged = true;
-		}
-		if (playerScale > 1000 && world.localScale.x == 0.1f) {
-			world.localScale = new Vector3(0.0001f, 0.0001f, 0.0001f);
-			scaleChanged = true;
-		}
-		if (playerScale > 1000000 && world.localScale.x == 0.0001f) {
-			world.localScale = new Vector3(0.0000001f, 0.0000001f, 0.0000001f);
-			scaleChanged = true;
-		}
-		if (playerScale > 1000000000 && world.localScale.x == 0.0000001f) {
-			world.localScale = new Vector3(0.0000000001f, 0.0000000001f, 0.0000000001f);
-			scaleChanged = true;
-		}
-		if (playerScale > 1000000000000 && world.localScale.x == 0.0000000001f) {
-			world.localScale = new Vector3(0.0000000000001f, 0.0000000000001f, 0.0000000000001f);
-			scaleChanged = true;
-		}
-		if (playerScale > 1000000000000000 && world.localScale.x == 0.0000000000001f) {
-			world.localScale = new Vector3(0.0000000000000001f, 0.0000000000000001f, 0.0000000000000001f);
-			scaleChanged = true;
-		}
-		*/
 
 		// Adjust atmosphere
 		if (playerScale > 10000000) {
