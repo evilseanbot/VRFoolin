@@ -10,7 +10,7 @@ STUFF TO ADD:
 - Bacteriaphage
 
 10^-6
-- Red Blood cell
+X Red Blood cell
 - x Chromosone
 X Cell Nucleus
 
@@ -64,7 +64,7 @@ X Dipodocus
 - Titanic
 X Redwood Tree
 - Football Field
-- Airplane
+X Airplane
 - Statue of Liberty
 - Rockets
 X Eiffel Tower
