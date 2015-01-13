@@ -16,6 +16,8 @@ public class SelectiveVisibility : MonoBehaviour {
 	public GameObject sunMockKilo;
 	public GameObject sun;
 
+	public GameObject solarSystem;
+
 	public Component[] rends; 
 	
 	// Use this for initialization
@@ -30,7 +32,30 @@ public class SelectiveVisibility : MonoBehaviour {
 
 	public void scaleChange(float scale, double playerScale) {
 
-		if (scale == 0.0000001f) {			
+		if (scale == 0.0000000001f) {			
+			//moon.renderer.enabled = true;
+			//sun.renderer.enabled = true;
+
+			solarSystem.renderer.enabled = true;
+
+			//moonMockKilo.renderer.enabled = false;
+			//sunMockKilo.renderer.enabled = false;
+		}
+
+		Debug.Log (scale);
+
+		if (scale < 0.0000000001f) {
+			Debug.Log ("Scale is small enough");
+		}
+
+		if (scale > 0.001f) {
+			Debug.Log ("Scale is big enough");
+		}
+
+		if (scale > 0.0000000001f && scale < 0.0001f) {//0.0000001f) {			
+			Debug.Log ("Inside");
+			solarSystem.renderer.enabled = false;
+
 			//moon.renderer.enabled = true;
 			//sun.renderer.enabled = true;
 
@@ -64,7 +89,7 @@ public class SelectiveVisibility : MonoBehaviour {
 			//sunMockMeter.renderer.enabled = true;
 		}
 
-		if (scale == 100) {
+		if (scale == 100f) {
 
 			setRendering(house, false);
 			setRendering(rhino, false);

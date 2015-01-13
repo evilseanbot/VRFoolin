@@ -21,15 +21,19 @@ public class Shrinker : MonoBehaviour {
 		adjustWorldScale (scaleDim);
 
 		if (Input.GetKey("down")) {
-				double scaleChange = scaleDim * (1f - (0.5f * Time.deltaTime));
+			if (scaleDim > Mathf.Pow (10, -4)) {
+				double scaleChange = scaleDim * (1f - (1f * Time.deltaTime));
 				float scaleChangeF = (float)scaleChange;
 				transform.localScale = new Vector3(scaleChangeF, scaleChangeF, scaleChangeF); 
+			}
 		}
 
 		if (Input.GetKey("up")) {
-				double scaleChange = scaleDim * (1f + (0.5f * Time.deltaTime));
+			if (scaleDim < Mathf.Pow (10, 27) * 5) {
+				double scaleChange = scaleDim * (1f + (1f * Time.deltaTime));
 				float scaleChangeF = (float)scaleChange;
 				transform.localScale = new Vector3(scaleChangeF, scaleChangeF, scaleChangeF); 
+			}
 		}
 
 
